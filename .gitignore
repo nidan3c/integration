@@ -8,29 +8,22 @@ __pycache__
 
 # misc
 .coverage
+.python-version
+.venv
 .vscode
 coverage.xml
 htmlcov
 outputdata
 settings.json
+venv
 
 
 # Frontend are downloaded on release
 custom_components/hacs/hacs_frontend
-custom_components/hacs/hacs_frontend_experimental
 
+# Translation files
+custom_components/hacs/translations
+!custom_components/hacs/translations/en.json
 
 # Home Assistant configuration
-.cloud
-.HA_VERSION
-.storage
-automations.yaml
-blueprints
-configuration.yaml
-deps
-home-assistant_v2*
-home-assistant.log*
-tts
-scenes.yaml
-scripts.yaml
-secrets.yaml
+config
